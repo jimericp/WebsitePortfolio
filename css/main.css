@@ -118,8 +118,8 @@ h3 {
 }
 
 .nav {
-  /* display: none; */
-  transform: translateX(120%);
+  display: none;
+  /* transform: translateX(120%); */
 }
 
 .nav__item:not(:last-child) {
@@ -600,7 +600,7 @@ h3 {
 
   .nav {
     display: block;
-    transform: translateX(0%);
+    /* transform: translateX(0%); */
   }
 
   /* === SKILL STYLES === */
