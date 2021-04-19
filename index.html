@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jimeric Pulido</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&family=Work+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- my css style -->
+    <link rel="preload" href="css/main.css" as="style" />
+    <link rel="preload" href="js/main.js" as="script" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <a href="#"><img src="img/jp-logo.svg" alt="" class="logo" /></a>
+        <div class="nav-toggle flex">
+          <span class="menu"></span>
+        </div>
+        <nav class="nav">
+          <ul class="nav__lists flex">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="home" id="home">
+        <div class="container flex">
+          <div class="home__hero">
+            <p class="home__subtitle">Hello I'm</p>
+            <h1 class="home__title">Jimeric Pulido</h1>
+            <p class="home__subtitle">Front End Web Developer</p>
+            <a href="#" class="home__btn">Download CV</a>
+            <div class="social-icons">
+              <a href="#" class="social__icon"><i class="bx bxl-facebook-circle"></i></a>
+              <a href="#" class="social__icon"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <img src="img/jimeric.svg" alt="jimeric svg" class="home__img" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="title">About Me</h2>
+          <div class="about__content flex">
+            <div class="about__img">
+              <img src="img/jimeric.svg" alt="jimeric svg" />
+            </div>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sapiente eligendi iste ducimus aliquam sunt minima omnis
+              obcaecati, cum facilis, nobis dolor! Nihil rerum, maiores exercitationem expedita quae aspernatur excepturi?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="title title-skill">Skills</h2>
+          <div class="skill__contents flex">
+            <div class="skill__content flex">HTML<i class="bx bxl-html5"></i></div>
+            <div class="skill__content flex">CSS<i class="bx bxl-css3"></i></div>
+            <div class="skill__content flex">JAVASCRIPT<i class="bx bxl-javascript"></i></div>
+            <div class="skill__content flex">FIGMA<i class="bx bxl-figma"></i></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="title">Contact</h2>
+          <div class="grid">
+            <div class="contact__img"><img src="img/contactme.svg" alt="contact me svg" /></div>
+            <form action="#">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" class="form__input" name="fullname" placeholder="Full Name" id="fullname" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form__input" name="email" placeholder="Email" id="email" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" placeholder="Message" id="message" class="form__textarea"></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" id="submit" class="form__btnsubmit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="container flex">
+        <h2 class="footer__text">&#169; 2021 Jimeric Pulido</h2>
+        <div class="social-icons">
+          <a href="#" class="social__icon"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#" class="social__icon"><i class="bx bxl-github"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
