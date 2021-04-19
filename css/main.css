@@ -114,12 +114,13 @@ h3 {
 }
 
 .logo {
-  width: 1.625em;
+  min-width: 1.625em;
 }
 
 .nav {
-  display: none;
-  /* transform: translateX(120%); */
+  /* display: none; */
+  transform: translateX(120%);
+  overflow-x: hidden;
 }
 
 .nav__item:not(:last-child) {
@@ -216,6 +217,7 @@ h3 {
 }
 
 .nav.active {
+  /* display: block; */
   background: var(--clr-dark);
   transform: translateX(0%);
   position: fixed;
@@ -599,8 +601,8 @@ h3 {
   }
 
   .nav {
-    display: block;
-    /* transform: translateX(0%); */
+    /* display: block; */
+    transform: translateX(0%);
   }
 
   /* === SKILL STYLES === */
