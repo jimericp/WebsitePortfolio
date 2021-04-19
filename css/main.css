@@ -111,6 +111,7 @@ h3 {
   padding: 2em 1.25em;
   justify-content: space-between;
   position: relative;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -120,7 +121,6 @@ h3 {
 .nav {
   /* display: none; */
   transform: translateX(120%);
-  overflow-x: hidden;
 }
 
 .nav__item:not(:last-child) {
