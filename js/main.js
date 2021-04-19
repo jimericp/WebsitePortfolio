@@ -1,6 +1,7 @@
 const navToggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.nav');
 const body = document.querySelector('body');
+const navLinks = document.querySelectorAll('.nav-link');
 
 let menuOpen = false;
 
@@ -17,4 +18,8 @@ navToggle.addEventListener('click', () => {
     body.classList.remove('overflow');
     menuOpen = false;
   }
+});
+
+navLinks.forEach((link) => {
+  link.addEventListener.classList.remove('active');
 });
