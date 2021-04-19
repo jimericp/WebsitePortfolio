@@ -21,5 +21,9 @@ navToggle.addEventListener('click', () => {
 });
 
 navLinks.forEach((link) => {
-  link.addEventListener.classList.remove('active');
+  link.addEventListener('click', () => {
+    navToggle.classList.remove('active');
+    nav.classList.remove('active');
+    body.classList.remove('overflow');
+  });
 });
