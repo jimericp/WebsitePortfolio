@@ -1,7 +1,7 @@
 const navToggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.nav');
 const body = document.querySelector('body');
-const navLinks = document.querySelectorAll('.nav-link');
+const navLinks = document.querySelectorAll('.nav__link');
 
 let menuOpen = false;
 
