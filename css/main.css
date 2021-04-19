@@ -59,6 +59,10 @@ body::-webkit-scrollbar {
   }
 }
 
+body.overflow {
+  overflow: hidden;
+}
+
 section {
   padding: 3em 0;
 }
